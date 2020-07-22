@@ -1,7 +1,7 @@
 def count_strings(array)
   
-  array.count do |el|
-     el == String
+  array.count do |element|
+     element.String?
   end
 end
 
